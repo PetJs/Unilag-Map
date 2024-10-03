@@ -1,0 +1,15 @@
+
+.line {
+  animation: draw 1s ease-in-out forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
